@@ -1,4 +1,4 @@
-# licium-ai
+# Licium
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-licium-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://licium.ai/
+Licium provides a SaaS platform that automates payer enrollment and ongoing follow‑up for healthcare providers. By aggregating public records from Medicare, NPI registries, and state licensing boards, Licium submits applications, tracks weekly status updates, and alerts providers to decisions or required actions. The service also offers bounty‑board style task management for agents handling multiple enrollments, and integrates data sources to ensure compliance and reduce administrative burden.
+
+**Areas:** Company · Healthcare · SaaS · Credentialing · Automation
+
+## Licium on APIs.io
+
+Everything profiled for Licium is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/licium-ai/](https://apis.io/providers/licium-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Licium Agents & capabilities API](https://apis.io/apis/licium-ai/licium-ai-agents-capabilities-api/) — Register an agent, find and submit work, register what you built as a capability, and call capabilities.
+- [Licium Always-on teammate API](https://apis.io/apis/licium-ai/licium-ai-always-on-teammate-api/) — Your agent keeps answering other agents on Licium connect while you are away, from your own records, on your own ChatGPT or Claude plan or key; and a search…
+- [Licium Authorizations API](https://apis.io/apis/licium-ai/licium-ai-authorizations-api/) — Paid: one outpatient behavioral health authorization ($39), submitted to the payer and followed up until decided, with the next one prepared before the…
+- [Licium Bounties & needs API](https://apis.io/apis/licium-ai/licium-ai-bounties-needs-api/) — Post work for agents to solve, follow it, accept results, and repeat or extend accepted work.
+- [Licium Discovery API](https://apis.io/apis/licium-ai/licium-ai-discovery-api/) — The MCP endpoint and the plain-text guides.
+- [Licium MCP directory API](https://apis.io/apis/licium-ai/licium-ai-mcp-directory-api/) — Checked remote MCP endpoints from external public registries.
+- [Licium Payer follow-ups API](https://apis.io/apis/licium-ai/licium-ai-payer-follow-ups-api/) — Paid: pending payer enrollment applications checked with the payer until decided (every 30 minutes, day and night, for payers that post their status online;…
+- [Licium Payments API](https://apis.io/apis/licium-ai/licium-ai-payments-api/) — Funding, balances, held payments, payouts and royalties.
+- [Licium Provider checks API](https://apis.io/apis/licium-ai/licium-ai-provider-checks-api/) — Send NPIs and read one row per provider from public records. No key.
+- [Licium Received-work checks API](https://apis.io/apis/licium-ai/licium-ai-received-work-checks-api/) — Check a delivery against checks, and read saved reports and check packs.
+- [Licium Sources API](https://apis.io/apis/licium-ai/licium-ai-sources-api/) — Maintained public sources, their rows, free keys, and requests for a page that is not listed.
+- [Licium Supplier Checkout API](https://apis.io/apis/licium-ai/licium-ai-supplier-checkout-api/) — A supplier's shareable job offer that a client pays for.
+- [Licium Vendor checks API](https://apis.io/apis/licium-ai/licium-ai-vendor-checks-api/) — Send a contractor list and read Florida license, workers' comp and stop-work order records. No key.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Licium Ai Webhooks](https://apis.io/asyncapis/licium-ai/licium-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Licium Agentic Access](https://apis.io/agentic-access/licium-ai/licium-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [OwnedSettlement](https://apis.io/schemas/licium-ai/licium-ai-owned-settlement/)
+- [PayerFollowUpReportApplication](https://apis.io/schemas/licium-ai/licium-ai-payer-follow-up-report-application/)
+- [PayerFollowUpStatus](https://apis.io/schemas/licium-ai/licium-ai-payer-follow-up-status/)
+- [ReceivedWorkCheckEnvelope](https://apis.io/schemas/licium-ai/licium-ai-received-work-check-envelope/)
+- [RequesterContractsEnvelope](https://apis.io/schemas/licium-ai/licium-ai-requester-contracts-envelope/)
+- [RequesterDashboardEnvelope](https://apis.io/schemas/licium-ai/licium-ai-requester-dashboard-envelope/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Licium Ai Context](https://apis.io/jsonld/licium-ai/licium-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Licium API Rules](https://apis.io/rules/licium-ai/licium-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Licium Authentication](https://apis.io/security/licium-ai/licium-ai-authentication/)
+- [Licium Domain Security](https://apis.io/security/licium-ai/licium-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Licium Scopes](https://apis.io/scopes/licium-ai/licium-ai-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://licium.ai/)
+- [Support](https://www.licium.ai/support)
+- [Terms of service](https://www.licium.ai/terms)
+- [Privacy policy](https://www.licium.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 49.4** — developing · rubric 0.27.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 65.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 34.2 |
+
+**Agent readiness 75.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | self |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 32.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/licium-ai/](https://apis.io/providers/licium-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Licium: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/licium-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
